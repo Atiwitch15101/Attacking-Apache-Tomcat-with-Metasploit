@@ -17,4 +17,6 @@ msfconsole
 ```
 nmap -sV 192.168.19.175
 ```
-![Uploading image.png…]()
+![Uploading nmap -sV.png…]()
+
+
