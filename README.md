@@ -1,4 +1,4 @@
-# Attacking-Apache-Tomcat-with-Metasploit
+![search](https://github.com/Atiwitch15101/Attacking-Apache-Tomcat-with-Metasploit/assets/159407312/906734e0-23f3-4507-8601-ff06562c221b)# Attacking-Apache-Tomcat-with-Metasploit
 
 ### Metasploit Framework 
 
@@ -17,6 +17,30 @@ msfconsole
 ```
 nmap -sV 192.168.19.175
 ```
-![Uploading nmap -sV.png…]()
+
+![nmap -sV](https://github.com/Atiwitch15101/Attacking-Apache-Tomcat-with-Metasploit/assets/159407312/6f8c730d-a227-44d5-abbf-433092e433af)
+
+### search
+
+> คำสั่ง search ใน Metasploit Framework ช่วยค้นหาโมดูลที่เกี่ยวข้องกับคำสำคัญที่คุณป้อนไป
+
+```
+search tomcat
+```
+
+![search](https://github.com/Atiwitch15101/Attacking-Apache-Tomcat-with-Metasploit/assets/159407312/ecce85cc-adb6-4131-a129-778651be0599)
+
+### use
+
+>use ใน Metasploit Framework ช่วยให้ผู้ใช้สามารถเลือกและใช้โมดูลที่ต้องการในการทดสอบเจาะระบบได้
+
+```
+use auxiliary/scanner/http/tomcat_mgr_login 
+```
+
+![use](https://github.com/Atiwitch15101/Attacking-Apache-Tomcat-with-Metasploit/assets/159407312/32920552-4e06-4e91-b3e0-95fccecb9e99)
+
+
+
 
 
