@@ -81,5 +81,37 @@ set RPORT 8180
 ```
 ![set](https://github.com/Atiwitch15101/Tomcat/assets/159407312/0c6d6159-8413-4831-9be7-5ee49929a4a4)
 
+### Check show options again
 
+>เพื่อตรวจสอบค่าที่เราเปลี่ยน
+
+```
+show options
+```
+
+![show op2](https://github.com/Atiwitch15101/Tomcat/assets/159407312/bc29ddb7-bfa9-4ccf-91e2-e14cb5e3aa69)
+
+### exploil
+
+>คำสั่ง exploit เมื่อใช้ Metasploit Framework ใช้เพื่อเริ่มการโจมตีหรือรันโมดูลที่คุณตั้งค่าเรียบร้อยแล้ว
+
+```
+exploil
+```
+
+![exploil](https://github.com/Atiwitch15101/Tomcat/assets/159407312/eaa4952b-4cf8-4403-ad7c-f3f9a6a7c655)
+
+>รอ Run ให้เสร็จ จะเห็น User และ pass
+
+![exploil end](https://github.com/Atiwitch15101/Tomcat/assets/159407312/f099ee12-9fb7-4dd9-ba13-d0ba4e89b623)
+
+### lohing
+
+>จากนั้นนำ user และ pass ไป login ที่ url เดิม
+
+![loging](https://github.com/Atiwitch15101/Tomcat/assets/159407312/944f1542-41e6-47ac-be77-9d5642a509c8)
+
+### login
+
+![login](https://github.com/Atiwitch15101/Tomcat/assets/159407312/c73bc666-2e37-456d-be83-d49c3c609148)
 
