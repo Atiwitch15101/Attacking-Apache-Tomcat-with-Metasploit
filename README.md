@@ -54,7 +54,7 @@ show options
 
 >คำสั่ง set เมื่อใช้ Metasploit Framework ใช้เพื่อกำหนดค่าพารามิเตอร์สำหรับโมดูลที่เลือก
 
-`BRUTEFORCE_SPEED` ตั้งความเร็วในการ brute force (1-5, ค่า 5 เร็วสุด)
+`#0969DA``BRUTEFORCE_SPEED` ตั้งความเร็วในการ brute force (1-5, ค่า 5 เร็วสุด)
 `RHOSTS` ระบุเป้าหมายหรือกลุ่มเป้าหมาย (เช่น IP หรือช่วง IP)
 `STOP_ON_SUCCESS` หยุดการโจมตีเมื่อประสบความสำเร็จ (true/false)
 `RPORT` ระบุพอร์ตของเป้าหมาย (เช่น 80 สำหรับ HTTP)
